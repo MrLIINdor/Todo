@@ -1,0 +1,62 @@
+/*  The var'iables are in index.css */
+
+
+
+.todo-opportunities{
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.todo-opportunities__button{
+    padding: 5px 16px;
+    color: var(--green-color);
+    background-color: var(--blue-color);
+    cursor: pointer;
+    border: none;
+    transition: 0.4s;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: var(--font-family);
+}
+
+.todo-opportunities__button:active {
+    transform: scale(0.9);
+}
+
+.todo-opportunities__button:not(:last-child){
+    margin-right: 20px;
+}
+
+
+
+.form-todo__title{
+    color: var(--blue-white-color);
+    font-size: 24px;
+}
+
+
+
+.form-todo__input{ 
+    background: none;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.2s;
+    font-size: 16px;
+    border: 2px solid var(--blue-white-color);
+}
+
+.form-todo__input::placeholder{
+    color: var(--grey-color);
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+  
+.form-todo__input:focus::placeholder{
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}

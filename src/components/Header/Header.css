@@ -1,0 +1,39 @@
+/*  The var'iables are in index.css */
+
+
+
+.nav-header{
+    top: 0;
+    position: sticky;
+    background-color: var(--blue-bark-color);
+    height: 6.5vh;
+    display: flex;
+    justify-content: center;
+    padding: 1.2vh calc((70vw - 1000px) / 2 );
+    z-index: 10;
+}
+
+
+
+.nav-header__menu{
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+
+
+
+.nav-header__link{
+    color: var(--white-color);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 2.4vh;
+    cursor: pointer;
+    font-size: 2vh;
+}
+
+.active{
+    color: var(--green-color);
+}
+
